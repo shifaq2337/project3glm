@@ -15,76 +15,82 @@
 ?>
 
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>View List</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <?php require_once('assets/partials/nav.php'); ?>
-        <div class="container mt-5">
-            <!-- top -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1>View Grocery List</h1>
-                    <a href="index.php">Add Item</a>
-                </div>
-                <div class="col-lg-4">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <!-- Date Filtering-->
-                            <form method="post" action="">
-                              <input type="date" class="form-control" name="idate">
-                        </div>
-                          <div class="col-lg-4" method="post">
-                            <input type="submit" class="btn btn-danger float-right" name="btn" value="Filter">
-                        </div>
-                            </form>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>View Grocery List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <?php require_once('assets/partials/nav.php'); ?>
+    <div class="container mt-5">
+        <!-- top -->
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>View Grocery List</h1>
+                <a href="index.php">Add Item</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Date Filtering-->
+                        <form method="post" action="">
+                            <input type="date" class="form-control" name="idate">
                     </div>
+                    <div class="col-lg-4" method="post">
+                        <input type="submit" class="btn btn-primary float-right rounded-pill" name="btn" value="Filter">
+                    </div>
+                    </form>
                 </div>
             </div>
-           
-            <!-- Grocery Cards -->
-            <div class="row mt-4">
-                
-             <?php
+        </div>
+
+        <!-- Grocery Cards -->
+        <div class="row mt-4">
+
+            <?php
                   while ($qq=mysqli_fetch_array($query)) 
                   {
                   
              ?>
 
-                <div class="col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title"><?php echo $qq['Item_name']; ?></h5>
-                          <h6 class="card-subtitle mb-2 text-muted"><?php echo $qq['Item_Quantity']; ?></h6>
-                          <?php
+            <div class="col-lg-4">
+                <div class="card rounded">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $qq['Item_name']; ?></h5>
+                        <h6 class="card-subtitle mb-2 text-muted"><?php echo $qq['Item_Quantity']; ?></h6>
+                        <?php
                           if($qq['Item_status'] == 0) {
                           ?>
-                            <p class="text-info">Pending/Not Yet Bought</p>
-                          <?php
+                        <p class="text-warning">Pending/Not Yet Bought</p>
+                        <?php
                           } else if($qq['Item_status'] == 1) {
                           ?>
-                            <p class="text-success">Bought</p>
-                          <?php } else { ?> 
-                            <p class="text-danger">Not Available</p>
-                          <?php } ?>
-                            <p><?php echo $qq['Date']; ?></p>
-                          <a href="delete.php?id=<?php echo $qq['Id']; ?>" class="card-link">Delete</a>
-    					            <a href="update.php?id=<?php echo $qq['Id']; ?>" class="card-link">Update</a>
-                        </div>
+                        <p class="text-success">Bought</p>
+                        <?php } else { ?>
+                        <p class="text-danger">Not Available</p>
+                        <?php } ?>
+                        <p><?php echo $qq['Date']; ?></p>
+                        <a href="delete.php?id=<?php echo $qq['Id']; ?>" class="card-link">Delete</a>
+                        <a href="update.php?id=<?php echo $qq['Id']; ?>" class="card-link">Update</a>
+                    </div>
 
-                      </div><br>
-                </div>
-                <?php
+                </div><br>
+            </div>
+            <?php
                   
 
                   }
                 ?>
-                
-            </div>
-        </div>
-    </body>
-</html>
 
+        </div>
+    </div>
+</body>
+
+</html>

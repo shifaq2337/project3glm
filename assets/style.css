@@ -1,0 +1,50 @@
+/*
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+body{
+    background-color: #F8F0F0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;*/
+}
+label, input, p, select, option{
+	font-size:16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.btn{
+    text-transform: uppercase;
+    margin: 5px;
+}
+div{
+    padding-top: 10px;
+}
+
+/*
+nav h1{
+	display: inline-block;
+	color: white;
+}
+
+nav ul{
+	display: inline-block;
+}
+
+nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+nav a{
+	display:block;
+	background:#777;
+	padding:10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color:#fff;
+}
+
+nav a:hover{
+	background:#333;
+}
+*/
