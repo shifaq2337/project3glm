@@ -5,10 +5,10 @@ font-family: 'Oswald', sans-serif;*/
 body{
     background-color: #F8F0F0;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, nav{
     font-family: 'Oswald', sans-serif;*/
 }
-label, input, p, select, option{
+label, input, p, a, select, option, .btn{
 	font-size:16px;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -16,10 +16,22 @@ label, input, p, select, option{
     text-transform: uppercase;
     margin: 5px;
 }
-div{
-    padding-top: 10px;
+label{
+    font-size: 18px;
 }
-
+nav li:hover{
+	background: #eee2df;
+}
+/*
+@media(max-width:768px){
+    .btn{
+        text-align: center;
+    }
+}
+*/
+#aboutpara{
+    background-color: #E3CFCF;
+}
 /*
 nav h1{
 	display: inline-block;
@@ -42,9 +54,5 @@ nav a{
 	border-radius: 5px;
 	text-decoration: none;
 	color:#fff;
-}
-
-nav a:hover{
-	background:#333;
 }
 */

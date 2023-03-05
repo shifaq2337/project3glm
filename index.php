@@ -14,20 +14,20 @@
 
 <body>
     <?php require_once('assets/partials/nav.php'); ?>
-    <div class="container mt-5" id="aboutp">
+    <div class="container mt-5 pt-5" id="aboutp">
         <h2>About Grocery List Maker(GLM)</h2>
-        <p></p>
+        <p id="aboutpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="container mt-5">
         <h1>Grocery List Maker</h1>
         <form action="index.php" method="POST">
             <div class="form-group">
                 <label>Name of Item</label>
-                <input type="text" class="form-control" placeholder="Item name" name="iname" />
+                <input type="text" class="form-control" placeholder="Item name" name="iname"/>
             </div> <br>
             <div class="form-group">
                 <label>Quantity</label>
-                <input type="number" class="form-control" placeholder="Item quantity" name="iqty" />
+                <input type="number" class="form-control" placeholder="Item quantity" name="iqty"/>
             </div> <br>
             <div class="form-group">
                 <label>Availability &amp; Buying Status</label>

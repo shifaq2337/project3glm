@@ -29,7 +29,7 @@
 
 <body>
     <?php require_once('assets/partials/nav.php'); ?>
-    <div class="container mt-5">
+    <div class="container mt-5 pt-5">
         <!-- top -->
         <div class="row">
             <div class="col-lg-8">
@@ -38,7 +38,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 mt-2">
                         <!-- Date Filtering-->
                         <form method="post" action="">
                             <input type="date" class="form-control" name="idate">
@@ -61,7 +61,7 @@
              ?>
 
             <div class="col-lg-4">
-                <div class="card rounded">
+                <div class="card rounded border-success border-opacity-50">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $qq['Item_name']; ?></h5>
                         <h6 class="card-subtitle mb-2 text-muted"><?php echo $qq['Item_Quantity']; ?></h6>
