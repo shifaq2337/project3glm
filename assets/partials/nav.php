@@ -5,15 +5,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="../index.php"><h4>Home</h4></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../index.php">About</a>
+          <a class="nav-link" href="../index.php"><h4>About</h4></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../list.php">View Grocery List</a>
+          <a class="nav-link" href="../list.php"><h4>View Grocery List</h4></a>
         </li>
       </ul>
     </div>

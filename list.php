@@ -34,7 +34,9 @@
         <div class="row">
             <div class="col-lg-8">
                 <h1>View Grocery List</h1>
-                <a href="index.php">Add Item</a>
+                <div class="col-lg-4">
+                    <button class="rounded-pill btn-lg"><a href="index.php">Add Item</a></button>
+                </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
@@ -43,7 +45,7 @@
                         <form method="post" action="">
                             <input type="date" class="form-control" name="idate">
                     </div>
-                    <div class="col-lg-4" method="post">
+                    <div class="col-lg-4 text-center" method="post">
                         <input type="submit" class="btn btn-primary float-right rounded-pill btn-lg" name="btn" value="Filter">
                     </div>
                     </form>

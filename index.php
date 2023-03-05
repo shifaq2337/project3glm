@@ -41,7 +41,7 @@
                 <label>Date</label>
                 <input type="date" class="form-control" placeholder="Date" name="idate">
             </div> <br>
-            <div class="form-group">
+            <div class="form-group text-center">
                 <input type="submit" value="Add" class="btn btn-danger btn-lg rounded-pill" name="btn">
             </div>
         </form>

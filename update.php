@@ -53,8 +53,8 @@
                 <label>Date</label>
                 <input type="date" class="form-control" name="idate" placeholder="Date" value="<?php echo $res['Date']?>">
             </div><br>
-            <div class="form-group">
-                <input type="submit" value="Update" name="btn" class="btn btn-danger">
+            <div class="form-group text-center">
+                <input type="submit" value="Update" name="btn" class="btn btn-danger btn-lg">
             </div>
         </form>
     </div>

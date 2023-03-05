@@ -15,44 +15,14 @@ label, input, p, a, select, option, .btn{
 .btn{
     text-transform: uppercase;
     margin: 5px;
+/*    place-items: center;*/
 }
 label{
     font-size: 18px;
 }
 nav li:hover{
-	background: #eee2df;
+	background: #d0f4de;
 }
-/*
-@media(max-width:768px){
-    .btn{
-        text-align: center;
-    }
-}
-*/
 #aboutpara{
     background-color: #E3CFCF;
 }
-/*
-nav h1{
-	display: inline-block;
-	color: white;
-}
-
-nav ul{
-	display: inline-block;
-}
-
-nav li{
-	list-style: none;
-	display: inline-block;
-}
-
-nav a{
-	display:block;
-	background:#777;
-	padding:10px;
-	border-radius: 5px;
-	text-decoration: none;
-	color:#fff;
-}
-*/
