@@ -16,7 +16,7 @@
     <?php require_once('assets/partials/nav.php'); ?>
     <div class="container mt-5 pt-5" id="aboutp">
         <h2>About Grocery List Maker(GLM)</h2>
-        <p id="aboutpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="aboutpara" class="rounded p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="container mt-5">
         <h1>Grocery List Maker</h1>
@@ -42,7 +42,7 @@
                 <input type="date" class="form-control" placeholder="Date" name="idate">
             </div> <br>
             <div class="form-group">
-                <input type="submit" value="Add" class="btn btn-danger rounded-pill" name="btn">
+                <input type="submit" value="Add" class="btn btn-danger btn-lg rounded-pill" name="btn">
             </div>
         </form>
     </div>

@@ -44,7 +44,7 @@
                             <input type="date" class="form-control" name="idate">
                     </div>
                     <div class="col-lg-4" method="post">
-                        <input type="submit" class="btn btn-primary float-right rounded-pill" name="btn" value="Filter">
+                        <input type="submit" class="btn btn-primary float-right rounded-pill btn-lg" name="btn" value="Filter">
                     </div>
                     </form>
                 </div>
@@ -61,7 +61,7 @@
              ?>
 
             <div class="col-lg-4">
-                <div class="card rounded border-success border-opacity-50">
+                <div class="card text-center rounded border-success border-opacity-50">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $qq['Item_name']; ?></h5>
                         <h6 class="card-subtitle mb-2 text-muted"><?php echo $qq['Item_Quantity']; ?></h6>
