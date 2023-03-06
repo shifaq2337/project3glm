@@ -2,27 +2,55 @@
 font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Oswald', sans-serif;*/
 
-body{
+body {
     background-color: #F8F0F0;
 }
-h1, h2, h3, h4, h5, h6, nav{
-    font-family: 'Oswald', sans-serif;*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+    font-family: 'Oswald', sans-serif;
+    */
 }
-label, input, p, a, select, option, .btn{
-	font-size:16px;
+
+label,
+input,
+p,
+a,
+select,
+option,
+.btn {
+    font-size: 16px;
     font-family: 'Merriweather Sans', sans-serif;
 }
-.btn{
+
+.btn {
     text-transform: uppercase;
     margin: 5px;
-/*    place-items: center;*/
 }
-label{
+
+label {
     font-size: 18px;
 }
-nav li:hover{
-	background: #d0f4de;
+
+nav li:hover {
+    background: #d0f4de;
 }
-#aboutpara{
+
+#aboutpara {
     background-color: #E3CFCF;
+}
+
+nav li {
+    font-size: 20px;
+}
+nav img{
+    height: 50px;
+}
+img{
+    height: 40%;
 }
