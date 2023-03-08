@@ -21,7 +21,7 @@
                 <img src="assets/imgs/glmlogo.png">
             </div>
             <div>
-                <p id="aboutpara" class="rounded p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p id="aboutpara" class="rounded p-2">The Grcoery List Maker(GLM) is a web-app created by Shifa Quddus. The purpose of GLM is to assist a person in making a responsive grocery list where they can update the status of whether an item has been bought, not yet bought or unavailable. The user is able to update the parameters such as name of item, quatity, status, and the date. Additionally, the user is able to delete any item as well. Once the user adds an item they will be directed to the View Grocery List page where they will be able to view items they added as well as filter items by date.</p>
             </div>
         </div>
     </div>

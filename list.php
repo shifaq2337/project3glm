@@ -35,7 +35,7 @@
             <div class="col-lg-8">
                 <h1>View Grocery List</h1>
                 <div class="col-lg-4">
-                    <button class="rounded-pill btn-lg"><a href="index.php">Add Item</a></button>
+                    <button class="btn-lg"><a href="index.php">Add Item</a></button>
                 </div>
             </div>
             <div class="col-lg-4">

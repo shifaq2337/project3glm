@@ -38,7 +38,7 @@ label {
 }
 
 nav li:hover {
-    background: #d0f4de;
+    background: #D6EDBC;
 }
 
 #aboutpara {
@@ -51,6 +51,7 @@ nav li {
 nav img{
     height: 50px;
 }
+
 img{
     height: 40%;
 }
